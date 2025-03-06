@@ -1,8 +1,177 @@
-.poke-card{
-    border: 2px solid black;
-    color: red;
+*{
+    margin: 0;
 }
 
-.navegation{
-    position: ;
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: black;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    img{width: 50px;}
+    padding: 20px;
+}
+
+body{
+    background-color: skyblue;
+}
+
+
+.navegation-container{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navegation-container button{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+}
+
+.type0 button{
+    display: flex;
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    top: 125px;
+    left: 120px;
+    border-radius: 50%;
+}
+
+.type1 button{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    top: 200;
+    border-radius: 50%;
+}
+
+.type2 button{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    top: 200;
+    left: 238px;
+    border-radius: 50%;
+}
+
+.type3 button{
+    display: flex;
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    top: 275px;
+    left: 120px;
+    border-radius: 50%;
+}
+
+.type4 button{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    top: 350;
+    border-radius: 50%;
+}
+
+.type5 button{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    top: 350;
+    left: 238px;
+    border-radius: 50%;
+}
+
+.type6 button{
+    display: flex;
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    top: 425px;
+    left: 120px;
+    border-radius: 50%;
+}
+
+.type7 button{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    top: 500;
+    border-radius: 50%;
+}
+
+.type8 button{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    top: 500px;
+    left: 238px;
+    border-radius: 50%;
+}
+
+.type9 button{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    top: 650px;
+    border-radius: 50%;
+}
+
+.type10 button{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    top: 650px;
+    left: 238px;
+    border-radius: 50%;
+}
+
+/*Pokedex logo*/
+.pokedex-logo{
+    display: flex;
+    width: 500px;
+    margin-left: 700px;
+    margin-bottom: 40px;
+}
+
+/*La informacio de la card del pokemon esta OCULTA ACTUALMENTE*/
+.poke-card{
+    display: flex;
+    display: block;
+    justify-items: center;
+    max-width: 250px;
+    min-width: 150px;
+    width: 100%;
+    justify-content: center;
+    background: grey;
+    flex-wrap: wrap;
+    flex: 1;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    margin-inline-start: 500px;
 }

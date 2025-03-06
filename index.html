@@ -6,9 +6,19 @@
     <title>Poke Guide</title>
 </head>
 <body>
+
     <!--Navegator bar-->
-    <nav>
-        <ul class="navegation">
+    <header>
+        <nav class="header-nav">
+            <a href="http://genserdev.space" target="_blank"><img src="Assets/genser-logo.png" alt="GenserDev logo"></a>
+            <a href="https://github.com/GenserDev/Poke-Guide" target="_blank"><img src="Assets/github-logo.png" alt="Github"></a>
+        </nav>
+    </header>
+
+    <!--Selector pokemon skill bar-->
+    <div class="menu-container">
+        <ul class="navegation-container">
+            <li class="type0"><button>All</button></li>
             <li class="type1"><button>Fire</button></li>
             <li class="type2"><button>Water</button></li>
             <li class="type3"><button>Electric</button></li>
@@ -20,10 +30,12 @@
             <li class="type9"><button>Flying</button></li>
             <li class="type10"><button>Psychic</button></li>
         </ul>
-    </nav>
+    </div>
 
     <!--Pokemon Cards-->
     <main>
+    <img class="pokedex-logo" src="Assets/pokemon-logo.png" alt="Pokemon-logo">
+
     <div class="poke-card">
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Pokemon">
         <p class="name">Nombre: Bulbasur</p>
