@@ -9,7 +9,6 @@ header{
     background: black;
     justify-content: space-between;
     padding: 10px;
-
 }
 
 .header-nav{
@@ -24,19 +23,16 @@ body{
     background-color: skyblue;
 }
 
-.menu-container{
-    margin: 50px;
-}
-
 .navegation-container{
     display: flex;
-    position: fixed;
+    position: absolute;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
     gap: 20px;
     list-style: none;
     flex-wrap: wrap;
-    padding: 20px;
+    margin: 10px;
+    margin-top: 100px;
 }
 
 .navegation-container button{
@@ -44,8 +40,6 @@ body{
     border-radius: 50%;
     font-size: 17px;
     font-size: 20px;
-    justify-content: center;
-    align-items: center;
     padding: 10px;
 }
 
@@ -63,6 +57,9 @@ body{
     width: 100%;
     height: auto;
     margin-bottom: 40px;
+    margin-left: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 /*Cards de los pokemones*/
@@ -71,14 +68,26 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px; 
+    padding: 20px;
+    margin: 20px;
 }
 
 .poke-card{
     text-align: center;
-    max-width: 250px;
-    min-width: 150px;
+    height: 300px;
+    max-width: 200px;
+    min-width: 50px;
     width: 100%;
     background: grey;
     border: 2px solid black;
     padding: 10px;
+    margin-left: 190px;
+    margin-right: 80px;
+}
+
+.poke-card img{
+    max-width: 150px;
+    min-width: 100px;
+    height: auto;
+    width: 100%;
 }
