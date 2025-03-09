@@ -24,154 +24,61 @@ body{
     background-color: skyblue;
 }
 
+.menu-container{
+    margin: 50px;
+}
 
 .navegation-container{
     display: flex;
+    position: fixed;
     flex-direction: column;
+    justify-content: center;
+    gap: 20px;
     list-style: none;
-    display: flex;
     flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
 }
 
 .navegation-container button{
     display: flex;
-    flex-direction: column;
     border-radius: 50%;
     font-size: 17px;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
-.type0 button{
-    display: flex;
-    width: 120px;
-    height: 45px;
-    position: absolute;
-    top: 125px;
-    left: 120px;
-    border-radius: 50%;
-}
-
-.type1 button{
-    display: flex;
-    position: absolute;
-    width: 100px;
-    height: 45px;
-    top: 200;
-    border-radius: 50%;
-}
-
-.type2 button{
-    display: flex;
-    position: absolute;
-    width: 100px;
-    height: 45px;
-    top: 200;
-    left: 238px;
-    border-radius: 50%;
-}
-
-.type3 button{
-    display: flex;
-    width: 120px;
-    height: 45px;
-    position: absolute;
-    top: 275px;
-    left: 120px;
-    border-radius: 50%;
-}
-
-.type4 button{
-    display: flex;
-    position: absolute;
-    width: 100px;
-    height: 45px;
-    top: 350;
-    border-radius: 50%;
-}
-
-.type5 button{
-    display: flex;
-    position: absolute;
-    width: 100px;
-    height: 45px;
-    top: 350;
-    left: 238px;
-    border-radius: 50%;
-}
-
-.type6 button{
-    display: flex;
-    position: absolute;
-    width: 120px;
-    height: 45px;
-    top: 425px;
-    left: 120px;
-    border-radius: 50%;
-}
-
-.type7 button{
-    display: flex;
-    position: absolute;
-    width: 100px;
-    height: 45px;
-    top: 500;
-    border-radius: 50%;
-}
-
-.type8 button{
-    display: flex;
-    position: absolute;
-    width: 100px;
-    height: 45px;
-    top: 500px;
-    left: 238px;
-    border-radius: 50%;
-}
-
-.type9 button{
-    display: flex;
-    position: absolute;
-    width: 100px;
-    height: 45px;
-    top: 650px;
-    border-radius: 50%;
-}
-
-.type10 button{
-    display: flex;
-    position: absolute;
-    width: 100px;
-    height: 45px;
-    top: 650px;
-    left: 238px;
-    border-radius: 50%;
-}
 
 /*Pokedex logo*/
-.pokedex-logo{
+
+.position-logo{
     display: flex;
-    width: 500px;
-    margin-left: 700px;
+    justify-content: center;
+}
+
+.pokedex-logo{
+    max-width: 350px;
+    min-width: 150px;
+    width: 100%;
+    height: auto;
     margin-bottom: 40px;
 }
 
-/*La informacio de la card del pokemon esta OCULTA ACTUALMENTE*/
-.poke-card{
+/*Cards de los pokemones*/
+.poke-container {
     display: flex;
-    display: block;
-    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.poke-card{
+    text-align: center;
     max-width: 250px;
     min-width: 150px;
     width: 100%;
-    justify-content: center;
     background: grey;
-    flex-wrap: wrap;
-    flex: 1;
     border: 2px solid black;
-    margin: 20px;
     padding: 10px;
-    margin-inline-start: 500px;
 }
